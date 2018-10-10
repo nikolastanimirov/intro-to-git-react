@@ -17,13 +17,13 @@
 .logo {
   max-width: 130px;
   max-height: 130px;
-  margin: 0-2em -2em;
+  margin: -2em -2em;
   align-content: left;
 }
 #navigation {
   margin-top: -1.7em;
   min-width: 100%;
-  min-height: 3em;
+  min-height: 4em;
   background: #1a273d;
 }
 #navigation ul {
@@ -40,18 +40,32 @@
 }
 #navigation ul li a {
   float: right;
-  padding: 5px 20px;
+  padding: 15px 20px;
 }
 #navigation input {
   float: right;
-  margin: 8px 2px;
+  margin: 18px 2px;
   padding: 5px 15px;
 }
 #navigation button {
   float: right;
   min-width: 100px;
   min-height: 29px;
-  margin: 8px 25px 5px 0px;
+  margin: 18px 25px 5px 0px;
   border-bottom-right-radius: 1em;
   border-top-right-radius: 1em;
+}
+#slider ul {
+  list-style-type: none;
+  margin: 0 auto;
+}
+#slider ul li {
+  margin: 0 auto;
+}
+
+.image1 {
+  margin-left: -2.5em;
+  margin-top: -1.5em;
+  width: 128em;
+  height: 40em;
 }
