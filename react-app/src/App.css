@@ -10,16 +10,15 @@
   padding: 15px;
 }
 .name-tag {
-  font-size: 30px;
+  font-size: 40px;
   color: bisque;
   text-align: left;
 }
 .logo {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 130px;
+  max-height: 130px;
   margin: 0-2em -2em;
   align-content: left;
-  border: 1px solid red;
 }
 #navigation {
   margin-top: -1.7em;
