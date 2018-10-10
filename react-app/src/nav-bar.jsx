@@ -5,7 +5,6 @@ class Navbar extends Component {
   render() {
     return (
       <div id="navigation">
-        <p class="name-tag">KIBIC Club</p>
         <ul>
           <button type="submit">Search</button>
           <input type="text" name="What to look for?" />
