@@ -8,7 +8,7 @@ class Slider extends Component {
       <div id="slider">
         <ul>
           <li>
-            <img src={image1} class="image1" alt="slider1" />
+            <img src={image1} className="image1" alt="slider1" />
           </li>
         </ul>
       </div>

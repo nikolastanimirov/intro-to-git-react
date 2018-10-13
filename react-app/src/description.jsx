@@ -7,7 +7,7 @@ class Description extends Component {
     return (
       <div id="main-section">
         <div className="section">
-          <img src={section_image} alt="section-image" />
+          <img src={section_image} alt="sectionimage" />
           <span className="section-text">gdsgss</span>
         </div>
       </div>

@@ -1,10 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import Header from "./header.jsx";
 import Slider from "./slider";
 import Navbar from "./nav-bar";
 import Description from "./description";
+import Footer from "./footer";
+
+import "./index.css";
+//import "./script";
 
 ReactDOM.render(
   <div>
@@ -12,12 +15,9 @@ ReactDOM.render(
     <Navbar />
     <Slider />
     <Description />
+    <Description />
+    <Description />
+    <Footer />
   </div>,
   document.getElementById("root")
 );
-
-/*
-ReactDOM.render(<Navbar />, document.getElementById("nav"));
-ReactDOM.render(<Slider />, document.getElementById("slider"));
-ReactDOM.render(<Description />, document.getElementById("description"));
-*/
