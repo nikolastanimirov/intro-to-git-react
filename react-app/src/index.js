@@ -1,8 +1,23 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import App from "./App";
+import Header from "./header.jsx";
+import Slider from "./slider";
 import Navbar from "./nav-bar";
+import Description from "./description";
+import Footer from "./footer";
 
-ReactDOM.render(<App />, document.getElementById("root"));
-ReactDOM.render(<Navbar />, document.getElementById("nav"));
+import "./index.css";
+//import "./script";
+
+ReactDOM.render(
+  <div>
+    <Header />
+    <Navbar />
+    <Slider />
+    <Description />
+    <Description />
+    <Description />
+    <Footer />
+  </div>,
+  document.getElementById("root")
+);
